@@ -40,7 +40,7 @@ const authConfig = {
           "id": "root",
           "name": "Drive One",
           "protect_file_link": false,
-         "auth": {"username":"password"}
+         "auth": {"rahim":"rahim"}
       },
     ]};
 
