@@ -5,7 +5,7 @@
     ╚██████╔╝██████╔╝██║██╗╚█████╔╝██████╔╝██╗╚█████╔╝██║░░██║╚██████╔╝
     ░╚═════╝░╚═════╝░╚═╝╚═╝░╚════╝░╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝░╚═════╝░
                              v 2.1.5
-A Script Redesigned by RAHIM from GOIndex at https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index */
+A Script Redesigned by RAHIM from GOIndex at https://gd.reoplus.org */
 
 // WARNING WARNING WARNING
 // This Script doesn't support Folder ID, use root or Shared Drive ID only
@@ -22,7 +22,7 @@ const video_domain_for_dl = video_domains_for_dl[Math.floor(Math.random()*domain
 const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN', 'US', 'PK']
 const blocked_asn = []; // add ASN numbers from http://www.bgplookingglass.com/list-of-autonomous-system-numbers, eg. [16509, 12345]
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
+    "siteName": "Google Drive Index", // Website name
     "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
@@ -40,13 +40,7 @@ const authConfig = {
           "id": "root",
           "name": "Drive One",
           "protect_file_link": false,
-         // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
-      },
-      {
-          "id": "root",
-          "name": "Drive Two",
-          "protect_file_link": false,
-         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+         "auth": {"username":"password"}
       },
     ]};
 
@@ -82,7 +76,7 @@ const uiConfig = {
     "logo_width": "100px", // only if logo_image is true
     "favicon": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.1.5/images/favicon.ico",
     // if logo is true then link otherwise just text for name
-    "logo_link_name": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.1.5/images/bhadoo-cloud-logo-white.svg",
+    "logo_link_name": "https://raw.githubusercontent.com/rahmmugdho/Google-Drive/main/Img/logo.png",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "60", // Value 60 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "nav_link_1": "Home", // change navigation link name
